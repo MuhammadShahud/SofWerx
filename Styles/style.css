@@ -1,0 +1,987 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.demo-Container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../Assets/Home/BackgrounImage.png");
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-hide {
+  display: none;
+}
+
+.container-mainheading {
+  font-size: 65px;
+  color: #9d9d9d;
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+.setcontainer-arrow {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  width: 50px;
+}
+
+.borderMap {
+  border: 3px solid #1df9fa;
+}
+
+.positionHome {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.positionHome4 {
+  position: absolute;
+  top: 25%;
+  right: 1.5%;
+}
+.positionHome5 {
+  position: absolute;
+  top: -5%;
+  right: 0.5%;
+}
+.positionHome22 {
+  position: absolute;
+  top: 25%;
+  right: 1.5%;
+}
+.positionHome23 {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+.positionHome42 {
+  position: absolute;
+  top:30%;
+  right: 2%;
+}
+.divLorem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clipBoxDemo1 {
+  font-size: 14px;
+  font-family: roboto;
+  color: #848d8d;
+  padding: 38px 32px;
+  border: 0.64px solid #2eb1b7;
+  margin-bottom: 20px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #155555 100%);
+}
+.arrow6 {
+  position: absolute;
+  top: 15%;
+  right: 3%;
+}
+
+.aiIcon {
+  filter: grayscale(1);
+  transition: all 0.5s ease;
+}
+.aiIcon:hover {
+  transition: all 0.5s ease;
+  filter: initial;
+}
+
+.seperatorLeft {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 12px;
+  height: 100%;
+  background: url("../assets/images/seperatorLeft.png") center center no-repeat;
+}
+
+#a {
+  margin-top: 35px;
+}
+#span {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  width: 35px;
+  height: 35px;
+  background: #1df9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  border-radius: 100%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.demo4HalfScreen {
+  flex: 0 0 30%;
+  max-width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 43px;
+  border-right: 1px solid #ffffff61;
+}
+
+.mainDemo4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 30px;
+}
+.carBrush {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: roboto;
+  color: #848d8d;
+  margin-top: 20px;
+  padding: 70px 150px;
+  border: 0.64px solid #2eb1b7;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #155555 100%);
+  position: relative;
+}
+.carBrushContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brush {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  right: 6%;
+}
+
+.carsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.carScroll {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 40px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.modal-image{
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  width: 40%;
+  height: 40%
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container.home {
+  background-image: url("../Assets/images/bg-sofwerx.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app-container.innerpage {
+  background-image: url("../Assets/images/bg-innerpage.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.app-container.innerpage.carBg {
+  background: url("../assets/images/car-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.alarmSection {
+  background: url("../assets/images/alarm-modal.png");
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.alarmSection img {
+  margin: 42px 0 0;
+}
+.navarrow {
+  color: #fff;
+  font-family: roboto;
+  background: url("../assets/images/arrow.png");
+  width: 73px;
+  padding: 3px 0px;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 10px 0 0;
+}
+main.alarmPage {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+.app-container.home main .logo {
+  margin: 0 0 -65px;
+}
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-app-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: "center";
+  align-content: "center";
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.new-alarm-modal {
+  width: 100%;
+  max-height: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.arrow-div {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  flex-direction: row;
+  width: 100%;
+  max-height: 5%;
+}
+
+/*Navigation*/
+header {
+  background: #061d1d91;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  padding: 15px 0;
+  margin: 0;
+}
+
+header ul li {
+  padding: 0 5px;
+}
+/*Navigation*/
+
+/*Buttons*/
+.buttons {
+  width: 100%;
+  display: flex;
+  padding: 60px 0 0;
+}
+
+.buttons ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+.buttons ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  filter: grayscale(1);
+}
+
+.buttons ul li a {
+  width: 164px;
+  height: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: #9d9d9d;
+  font-family: roboto;
+}
+
+.buttons ul li:hover {
+  filter: initial;
+  transition: all 0.5s ease;
+}
+.buttons ul li:hover a {
+  color: #fff;
+}
+.alignBy {
+  text-align: center;
+  width: 100%;
+  color: #1df9fa;
+  font-family: roboto;
+  font-size: 25px;
+}
+.footerFull {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  padding: 1% 0;
+  border-top: 1px solid #ffffff3d;
+}
+.footerHalf {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  padding: 1% 0;
+  border-top: 1px solid #ffffff3d;
+}
+/*Buttons*/
+
+/*Half Map Section*/
+main.halfTwoSections {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.halfSectionDiv {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+/* main.halfTwoSections div{
+  flex: 0 0 50%;
+  max-width: 50%;
+} */
+
+main.halfTwoSections .buttons ul {
+  flex-wrap: wrap;
+  gap: 0 15px;
+}
+
+main.halfTwoSections .buttons ul li a {
+  width: 120px;
+  height: 120px;
+  font-size: 16px;
+}
+
+/*Half Map Section*/
+
+/*Feeds Section*/
+
+.feeds {
+  width: 100%;
+  display: flex;
+
+  gap: 30px 100px;
+  align-items: center;
+}
+
+.feedsCard img {
+  width: 100%;
+  filter: grayscale(1);
+}
+
+.feedsCard:nth-child(2) img {
+  filter: initial;
+}
+
+/*Feeds Section*/
+
+/*Alerts Screen*/
+main.alertsScreen .buttons ul li:nth-child(2) {
+  filter: initial;
+}
+
+main.alertsScreen .buttons ul li a span {
+  position: absolute;
+  top: 17px;
+  right: 18px;
+  width: 35px;
+  height: 35px;
+  background: #1df9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  border-radius: 100%;
+}
+
+main.alertsScreen .buttons ul li a {
+  position: relative;
+}
+/*Alerts Screen*/
+
+/*Alert PAge*/
+.alertMain {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 50px;
+  padding: 0 25px;
+  margin: 65px 0 0;
+}
+
+main.alertsContainer {
+  width: 100%;
+  display: flex;
+}
+
+.alertMain div {
+  display: flex;
+}
+.alertMain .models {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.alertMain .clips {
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0 46px;
+  width: 100%;
+}
+
+.alertMain div h4 {
+  font-size: 14px;
+  color: #1df9fa;
+  font-family: roboto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.alertMain div.clipBox,
+div.clipBox {
+  font-size: 14px;
+  font-family: roboto;
+  color: #1df9fa;
+  padding: 38px 32px;
+  border: 0.64px solid #848d8d;
+  margin-bottom: 20px;
+}
+
+.alertMain .ctas {
+  padding: 85px 0 0;
+  gap: 60px 0;
+}
+
+.models a {
+  margin-bottom: 25px;
+}
+
+/*Alert PAge*/
+
+/*Target Acquisition*/
+.targetAcquisition main.halfTwoSections {
+  height: 97%;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert .carPic {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 10px 0 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #155555 100%);
+  mix-blend-mode: normal;
+  border: 0.64px solid #2eb1b7;
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert .carPic img {
+  width: 85%;
+  object-fit: cover;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert .iconHome {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.targetAcquisition main.halfTwoSections .map img {
+  height: 100%;
+  width: 100%;
+}
+.carAlert a {
+  transition: all 0.5s ease;
+}
+
+.carAlert a:hover {
+  transition: all 0.5s ease;
+  filter: initial;
+}
+.buttons ul li:nth-child(2) {
+  margin: -160px 0 0;
+  position: relative;
+}
+
+.carScreePage .buttons {
+  padding: 10px 0 0;
+}
+/*Target Acquisition*/
+/*Sub nav*/
+header ul li:last-child {
+  position: relative;
+}
+
+header ul li:last-child ul.subMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  right: 18px;
+  top: 30px;
+  padding: 0;
+  margin: 0;
+  z-index: 999;
+  transition: all 0.5s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+header ul li:last-child ul.subMenu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #4f4f4f;
+  background: #303030;
+}
+
+header ul li:last-child ul.subMenu li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: roboto;
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  line-height: 1;
+}
+
+header ul li:last-child ul.subMenu li a span:first-child {
+  margin-right: 10px;
+}
+
+header ul li:last-child ul.subMenu li:last-child {
+  border: 0;
+}
+
+header ul li:last-child:hover ul.subMenu {
+  height: 100%;
+  overflow: initial;
+  top: 130px;
+}
+main.globePage {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 55px;
+}
+/*Sub nav*/
+.buttons.fullWidth ul li:nth-child(2) {
+  margin: inherit;
+}
+
+.buttons.fullWidth {
+  padding: initial;
+}
+
+/*Alerts cta page*/
+
+ul.alertCta {
+  margin: 45px 0 0 70px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+ul.alertCta a {
+  text-decoration: none;
+  font-family: roboto;
+  font-size: 23px;
+  color: #9d9d9d;
+  transition: all 0.5s ease;
+}
+
+ul.alertCta li {
+  flex: 0 0 50%;
+  padding: 25px 0;
+  text-align: center;
+}
+
+ul.alertCta li:nth-child(2),
+ul.alertCta li:first-child {
+  border-bottom: 1px solid #9d9d9d;
+}
+
+ul.alertCta li:first-child,
+ul.alertCta li:nth-child(3) {
+  border-right: 1px solid #9d9d9d;
+}
+
+ul.alertCta a:hover {
+  color: #1df9fa;
+  transition: all 0.5s ease;
+}
+/*Alerts cta page*/
+
+/*Detect Page*/
+main.halfTwoSections.detectPage .carAlert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main.halfTwoSections.detectPage .carAlert a {
+  margin-left: auto;
+}
+
+main.halfTwoSections.detectPage .carAlert {
+  position: relative;
+}
+
+main.halfTwoSections.detectPage .ChooseTool {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #ffffff3b;
+}
+
+.targetAcquisition main.halfTwoSections.detectPage div.carAlert .iconHome {
+  align-items: center;
+}
+
+main.halfTwoSections.detectPage .carAlert a.icon {
+  position: absolute;
+  top: -7%;
+  right: 3%;
+}
+
+main.halfTwoSections.detectPage div {
+  height: 100%;
+}
+main.halfTwoSections.detectPage div a {
+  font-size: 23px;
+  font-family: roboto;
+  color: #1df9fa;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+main.halfTwoSections.detectPage div a :nth-child(2) {
+  font-size: 23px;
+  font-family: roboto;
+  color: #9d9d9d;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+main.halfTwoSections.detectPage div a :nth-child(2):hover {
+  transition: all 0.5s ease;
+  color: #1df9fa;
+}
+
+main.halfTwoSections.detectPage {
+  padding: 70px 0;
+}
+/*Detect Page*/
+
+/*Alerts List Page*/
+main.halfTwoSections.alertsListPage .alertList {
+  flex: 0 0 30%;
+  max-width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 43px;
+  border-right: 1px solid #ffffff61;
+}
+
+main.halfTwoSections.alertsListPage .alertList ul {
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+main.halfTwoSections.alertsListPage .alertList ul + a {
+  color: #1df9fa;
+}
+
+main.halfTwoSections.alertsListPage .alertList a {
+  text-decoration: none;
+  color: #9d9d9d;
+  font-family: roboto;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+main.halfTwoSections.alertsListPage .alertList ul li {
+  padding-bottom: 5px;
+}
+
+main.halfTwoSections.alertsListPage .alertList a:hover {
+  color: #1df9fa;
+  transition: all 0.5s ease;
+}
+
+main.halfTwoSections.alertsListPage .alertList ul + a:hover {
+  color: #9d9d9d;
+}
+
+main.halfTwoSections.alertsListPage.displayAlert,
+main.halfTwoSections.alertsListPage {
+  margin: 15px 0 0;
+}
+/*Alerts List Page*/
+
+/*Alert Display Pages*/
+main.halfTwoSections .alertDisplay {
+  flex: 0 0 70%;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main.halfTwoSections .alertDisplay .clipBox {
+  flex: 0 0 100%;
+  width: 360px;
+  padding: 30px 100px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  white-space: nowrap;
+}
+
+.more {
+  font-size: 14px;
+  font-family: roboto;
+  color: #9d9d9d;
+}
+main.halfTwoSections.alertsListPage.displayAlert footer {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+/*Alert Display Pages*/
+
+/*Detect Feed Page*/
+main.alertsContainer.detectFeedContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+main.alertsContainer.detectFeedContainer h6 {
+  font-size: 22px;
+  font-family: roboto;
+  color: #1df9fa;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.detectFeed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  position: relative;
+}
+
+.detectFeed .clipBox {
+  font-size: 23px;
+  padding: 50px 30px;
+}
+
+.detectFeed:before,
+.detectFeed:after {
+  content: "";
+  position: absolute;
+  left: -56px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: url("../images/arrowLeft.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 27px;
+  height: 50px;
+}
+.detectFeed:after {
+  background: url("../images/arrowRight.png") no-repeat;
+  right: -56px;
+  left: initial;
+}
+/*Detect Feed Page*/
+.map {
+  position: relative;
+  height: 90vh;
+
+  cursor: pointer;
+}
+
+.map:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 90vh;
+  background: url("../assets/images/seperator.png") center center no-repeat;
+  background-size: 12px 577px;
+}
+@media (orientation: portrait) {
+  header,
+  main,
+  footer,
+  main.halfTwoSections,
+  main.feedsContainer,
+  main.alertsContainer {
+    display: none;
+    overflow: hidden;
+    position: initial;
+  }
+
+  .mainDesktop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mainDesktop h3 {
+    color: #fff;
+    font-family: poppins;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
+}
+@media (orientation: landscape) {
+  .mainDesktop {
+    display: none;
+  }
+  header {
+    display: initial;
+    position: absolute;
+  }
+  main {
+    display: flex;
+  }
+}
+/* @media only screen and (max-width:428px) and (min-width:320px){
+  .positionHome4 {
+  top: 1%;
+  
+}
+}
+@media only screen and (max-width:1024px) and (min-width:768px){
+   .positionHome4 {
+  top: ;
+  
+}
+}
+
+@media only screen and (max-width:1300px) and (min-width:1025px){
+   .positionHome4 {
+  top: 14%;
+  
+}
+} */

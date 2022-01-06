@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.app-container.home {
+
+    background: url('../images/bg-sofwerx.jpg');
+    background-size: cover;
+
+}
+.app-container.innerpage {
+
+    /* background: url('../images/bg-innerpage.png'); */
+
+}
+
+
+.alarmSection img {
+    margin: 42px 0 0;
+}
+
+.app-container.home main .logo {
+    margin: 0 0 -65px;
+}
+.app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Navigation*/
+header {
+    background: #061d1d91;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+header ul li {
+    padding: 0 5px;
+}
+/*Navigation*/
+
+
+
+/*Buttons*/
+.buttons {
+    width: 100%;
+    display: flex;
+    padding: 60px 0 0;
+}
+
+.buttons ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 40px;
+}
+
+.buttons ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+    filter: grayscale(1);
+}
+
+.buttons ul li a {
+    width: 164px;
+    height: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9D9D9D;
+    font-family: roboto;
+    
+}
+
+.buttons ul li:hover {
+    filter: initial;
+    transition: all 0.5s ease;
+}
+.buttons ul li:hover a{
+    color: #fff;
+}
+
+
+/*Buttons*/
+
+/*Half Map Section*/
+main.halfTwoSections {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 250px;
+    overflow: hidden;
+  
+}
+
+
+main.halfTwoSections .buttons ul {
+    flex-wrap: wrap;
+    gap: 0 15px;
+}
+
+main.halfTwoSections .buttons ul li a {
+    width: 120px;
+    height: 120px;
+    font-size: 16px;
+}
+/*Half Map Section*/
+
+
+/*Feeds Section*/
+main.feedsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 50px;
+    gap: 40px;
+}
+
+
+
+.feedsCard img {
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.feedsCard:nth-child(2) img {
+    filter: initial;
+}
+
+.sortedFeeds {
+    width: 100%;
+    color: #1DF9FA;
+    font-family: roboto;
+    padding: 50px 0 20px;
+    padding-right: 45px;
+    font-size: 20px;
+}
+/*Feeds Section*/
+
+
+
+/*Alerts Screen*/
+main.alertsScreen .buttons ul li:nth-child(2) {
+    filter: initial;
+    }
+
+    main.alertsScreen .buttons ul li a span {
+    position: absolute;
+    top: 17px;
+    right: 18px;
+    width: 35px;
+    height: 35px;
+    background: #1DF9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border-radius: 100%;
+}
+
+main.alertsScreen .buttons ul li a {
+    position: relative;
+}
+/*Alerts Screen*/
+
+
+/*Alert PAge*/
+.alertMain {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 50px;
+    padding:  0 25px;
+    margin: 65px 0 0;
+}
+
+main.alertsContainer {
+    width: 100%;
+    display: flex;
+}
+
+.alertMain div {
+    display: flex;
+}
+
+.alertMain .models, .alertMain .ctas {
+    flex-direction: column;
+}
+
+.alertMain .clips {
+    flex-wrap: wrap;
+    gap: 0 46px;
+}
+
+
+
+.alertMain .ctas {
+    padding: 85px 0 0;
+        gap: 60px 0;
+}
+
+.models a {
+    margin-bottom: 25px;
+}
+
+/*Alert PAge*/
+
+
+
+/*Target Acquisition*/
+
+.targetAcquisition main.halfTwoSections div.carAlert {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert .carPic {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 10px 0 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #155555 100%);
+    mix-blend-mode: normal;
+    border: 0.64px solid #2EB1B7;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert .carPic img {
+    width: 85%;
+    object-fit: cover;
+}
+
+.targetAcquisition main.halfTwoSections div.carAlert .iconHome {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.targetAcquisition main.halfTwoSections .map img {
+    width: 100%;
+}
+
+.buttons ul li:nth-child(2) {
+    margin:  -160px 0 0;
+}
+
+.carScreePage .buttons {
+    padding: 10px 0 0;
+}
+/*Target Acquisition*/
+/*Sub nav*/
+header ul li:last-child {
+    position: relative;
+}
+
+header ul li:last-child ul.subMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    right: 18px;
+    top: 30px;
+    padding: 0;
+    margin: 0;
+    z-index: 999;
+    transition: all 0.5s ease;
+    height: 0;
+    overflow: hidden;
+}
+
+header ul li:last-child ul.subMenu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #4F4F4F;
+    background: #303030;
+}
+
+header ul li:last-child ul.subMenu li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: roboto;
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    line-height: 1;
+}
+
+header ul li:last-child ul.subMenu li a span:first-child {
+    margin-right: 10px;
+}
+
+header ul li:last-child ul.subMenu li:last-child {
+    border: 0;
+}
+
+header ul li:last-child:hover ul.subMenu {
+    height: 100%;
+    overflow: initial;
+    top: 130px;
+}
+main.globePage {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+}
+/*Sub nav*/
+.buttons.fullWidth ul li:nth-child(2) {
+    margin: inherit;
+}
+
+.buttons.fullWidth {
+    padding: initial;
+}
+
+/*Alerts cta page*/
+ul.alertCta {
+    margin: 45px 0 0 70px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+ul.alertCta a {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 23px;
+    color: #9D9D9D;
+    transition: all 0.5s ease;
+}
+
+ul.alertCta li {
+    flex: 0 0 50%;
+    padding: 25px 0;
+    text-align: center;
+}
+
+ul.alertCta li:nth-child(2),ul.alertCta li:first-child {
+    border-bottom: 1px solid #9D9D9D;
+}
+
+ul.alertCta li:first-child, ul.alertCta li:nth-child(3) {border-right: 1px solid #9D9D9D;}
+
+ul.alertCta a:hover {
+    color: #1DF9FA;
+    transition: all 0.5s ease;
+}
+/*Alerts cta page*/
+
+/*Detect Page*/
+main.halfTwoSections.detectPage .carAlert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.halfTwoSections.detectPage .carAlert a {
+    margin-left: auto;
+}
+
+main.halfTwoSections.detectPage .carAlert {
+    position: relative;
+    }
+
+main.halfTwoSections.detectPage .ChooseTool {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #ffffff3b;
+}
+
+.targetAcquisition main.halfTwoSections.detectPage div.carAlert .iconHome {
+    align-items: center;
+}
+
+
+main.halfTwoSections.detectPage div {
+    height: 100%;
+}
+
+main.halfTwoSections.detectPage {
+    padding: 70px 0;
+}
+/*Detect Page*/
+
+/*Alerts List Page*/
+main.halfTwoSections.alertsListPage .alertList {
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 43px;
+    border-right: 1px solid #ffffff61;
+}
+
+main.halfTwoSections.alertsListPage .alertList ul {
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+main.halfTwoSections.alertsListPage .alertList ul + a {color: #1DF9FA;}
+
+
+
+main.halfTwoSections.alertsListPage .alertList ul li {
+    padding-bottom: 5px;
+}
+
+
+
+main.halfTwoSections.alertsListPage .alertList ul + a:hover {
+    color: #9d9d9d;
+}
+
+
+/*Alerts List Page*/
+
+
+/*Alert Display Pages*/
+
+main.halfTwoSections.alertsListPage.displayAlert footer {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+/*Alert Display Pages*/
+
+/*Detect Feed Page*/
+main.alertsContainer.detectFeedContainer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.detectFeed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+}
+
+.detectFeed .clipBox {
+    font-size: 23px;
+    padding: 50px 30px;
+}
+
+.detectFeed:before, .detectFeed:after {
+    content: '';
+    position: absolute;
+    left: -56px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/arrowLeft.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 27px;
+    height: 50px;
+}
+.detectFeed:after {
+    background: url('../images/arrowRight.png') no-repeat;
+    right: -56px;
+    left: initial;
+}
+/*Detect Feed Page*/
+.map {
+    position: relative;
+}
+
+
+/*Demo3*/
+.demo3 .buttons ul li:nth-child(2) {
+    position: relative;
+    filter: initial;
+}
+
+.demo3 .buttons ul li:nth-child(2) a {
+    color: #fff;
+}
+
+.demo3 .buttons ul li:nth-child(2):before {content: '1';width: 30px;height: 30px;position: absolute;top: 2px;right: 20px;border-radius: 100%;text-align: center;font-family: roboto;background: #1DF9FA;line-height: 1.7;}
+
+main.alertsContainer.demo3 .models {
+    max-width: 115px;
+    flex: 0 0 115px;
+}
+
+main.alertsContainer.demo3 .alertMain {
+    gap: 50px 35px;
+}
+
+main.alertsContainer.demo3 .alertMain .models a {filter: initial;}
+
+main.alertsContainer.demo3 .alertMain .models a:first-child {
+    filter: initial;
+}
+
+main.alertsContainer.demo3 .alertMain .models a:last-child {
+    position: relative;
+}
+
+main.alertsContainer.demo3 .alertMain .models a:last-child:before {
+    content: 'New';
+    text-decoration: none;
+    font-family: roboto;
+    width: 37px;
+    height: 37px;
+    background: #1DF9FA;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 14px;
+    color: #000;
+    top: 0;
+    right: 11px;
+    }
+
+main.alertsContainer.demo3 .alertMain .ctas {
+    padding: 0px 0 0;
+}
+
+main.alarmPage.ctaPage.demo3 {
+    justify-content: center;
+    padding: 95px 0 0;
+}
+
+main.alarmPage.ctaPage.demo3 a {
+    margin-left: auto;
+    padding-right: 30px;
+}
+
+main.alarmPage.ctaPage.demo3 .progressBar {
+    flex: 1 0 80% !important;
+    max-width: 240px !important;
+    background: #333333;
+    position: relative;
+    max-height: 11px;
+    width: 240px;
+    margin: 40px 0 0;
+}
+
+main.alarmPage.ctaPage.demo3 .progressBar:before {content: '';position: absolute;left: 0;top: 0;background: #1DF9FA;height: 100%;width: 50%;}
+
+main.alarmPage.ctaPage.demo3 h5 {
+    color: #1DF9FA;
+    font-family: roboto;
+    margin: 15px 0 0;
+    font-size: 16px;
+}
+
+.demo3 .navarrow {
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.demo3 .navarrow:after {
+    content: '';
+    background: url('../images/homeSmall.png') no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
+main.alarmPage.ctaPage.demo3.alertCta3 {
+    padding: 35px 30px 80px 40px;
+    margin: 103px 0 0;
+}
+/*Demo3*/
+@media (orientation: portrait) {
+    header,main,footer,main.halfTwoSections,main.feedsContainer,main.alertsContainer{
+        display: none;
+        overflow: hidden;
+        position: initial;
+    }
+
+    .mainDesktop {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .mainDesktop h3 {
+        color: #fff;
+        font-family: poppins;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .logo {
+        width: 100%;
+    }
+  }
+  @media (orientation: landscape) {
+    .mainDesktop{
+        display: none;
+    }
+    header{
+        display: initial;
+        position: absolute;
+    }
+    main{
+        display: flex;
+    }
+
+
+  }

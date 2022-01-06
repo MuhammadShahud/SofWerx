@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOFWERX</title>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="Styles/style2.css" />
+    <link rel="stylesheet" href="Styles/style3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bangers&family=Roboto:wght@300;700&family=Rubik:wght@800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="main-container">
+      <div class="container  demo-Container">
+ <div class="app-container home">
+       
+        <main>
+            <div class="logo">
+                <img src="assets/images/logo.png" onclick="ChangeDisplay(1,0)"/>
+            </div>
+        </main>
+    </div>
+      </div>
+
+<!-- 1st Screen -->
+
+      <div class="container demo-Container ">
+        <div class="container-mainheading">Demo #1</div>
+        <div class="container-mainheading">Auto-Find the Car</div>
+        <div class="setcontainer-arrow" onclick="ChangeDisplay(2,1)">
+          <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+        </div>
+      </div>
+      <!-- CarScreen  2nd screen-->
+
+      <div class="container container-hide" id="abc">
+        <div class="app-container innerpage targetAcquisition">
+            <div class="mainDesktop">
+            <div class="logo">
+                <img src="assets/images/logo.png" />
+                <iframe src="https://giphy.com/embed/XXU2vaPVrnhV7ZAGpY" frameBorder="0" class="giphy-embed"
+                    allowFullScreen></iframe>
+                <h3>Please switch to mobile landscape.</h3>
+            </div>
+        </div>
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv" onclick="ChangeDisplay(3,2)">
+              <img src="assets/images/target-acquisition.png" />
+            </div>
+
+            <div class="buttons halfSectionDiv">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)">
+                    Alerts
+                    <span id="span">1</span>
+                  </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/inactive-button-without-text.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+
+              <footer
+                class="footerHalf"
+                style="width: 50%; display: flex; justify-content: center"
+              >
+                <div class="alignBy"># Align Nearby</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+      <!-- 3rd Screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsScreen">
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)" onclick="ChangeDisplay(4,3)">
+                    Alerts
+                    <span>1</span>
+                  </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Align Nearby</div>
+          </footer>
+        </div>
+      </div>
+      <!-- 4th Screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsContainer">
+            <div class="alertMain">
+              <div class="models">
+                <h4>Models Loaded</h4>
+                <a href="#">
+                  <img src="assets/images/car-icon.png" />
+                </a>
+                <a href="#" class="aiIcon">
+                  <img src="assets/images/ai-icon.png" />
+                </a>
+              </div>
+              <div class="clips">
+                <h4>Clips of Targets</h4>
+                <div class="divLorem">
+                  <div class="clipBoxDemo1 cursor" onclick="ChangeDisplay(5,4)">
+                    Lorem Ipsum
+                  </div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <a href="javascript:void(0)">
+                    <img src="assets/images/cta.png" />
+                  </a>
+                </div>
+                <div class="divLorem">
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <a href="javascript:void(0)">
+                    <img src="assets/images/cta.png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </main>
+          <a class="icon positionHome cursor" onclick="ChangeDisplay(3,4)"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+      <!-- 5th Screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main class="alarmPage demo3">
+            <div class="navarrow" >1</div>
+            <div class="alarmSection" >
+              <img src="assets/images/camcapture.png" class="cursor" onclick="ChangeDisplay(6,5)"/>
+            </div>
+          </main>
+          <a class="icon positionHome4" onclick="ChangeDisplay(3,5)"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 6th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main class="alarmPage ctaPage demo3 alertCta3">
+            <div class="alarmSection cursor" onclick="ChangeDisplay(7,6)">
+              <ul class="alertCta">
+                <li>
+                  <a href="javascript:void(0)"> Show On Map </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Notify Squad </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Log IT </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Improve Detection </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <a onclick="ChangeDisplay(3,6)" class="positionHome42 cursor"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 7th Screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv">
+              <img src="assets/images/map1.jpg" />
+            </div>
+            <div class="buttons halfSectionDiv">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Alerts </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/inactive-button-without-text.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+              <footer class="footerHalf">
+                <div class="alignBy"># Align Nearby</div>
+              </footer>
+            </div>
+          </main>
+          <div
+            class="setcontainer-arrow arrow6 cursor"
+            onclick="ChangeDisplay(8,7)"
+          >
+            <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+          </div>
+        </div>
+      </div>
+      <!-- DEMOO 2 -->
+
+      <!-- 8th Screen -->
+      <div class="container demo-Container container-hide">
+        <div class="container-mainheading">Demo #2</div>
+        <div class="container-mainheading">Extreme Detection</div>
+        <div class="setcontainer-arrow cursor" onclick="ChangeDisplay(9,8)">
+          <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+        </div>
+      </div>
+
+      <!-- 9th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage demo2">
+          <main>
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a> Alerts </a>
+                </li>
+                <li
+                  class="cursor"
+                  onclick="ChangeDisplay(10,9)"
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: initial;
+                  "
+                >
+                  <a style="color: white"> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Allies Nearby</div>
+          </footer>
+        </div>
+      </div>
+
+      <!-- 10th screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections detectPage demo2">
+            <div class="seperatorLeft"></div>
+            <div class="ChooseTool halfSectionDiv">
+              <a onclick="ChangeDisplay(11,10)" class="cursor"
+                >Choose From <br />ToolBox</a
+              >
+            </div>
+            <div class="carAlert halfSectionDiv">
+              <div class="iconHome">
+                <a class="icon cursor" onclick="ChangeDisplay(9,10)"
+                  ><img src="assets/images/icon-home.png"
+                /></a>
+                <a style="color: #848d8d">Make New <br />Detection Model</a>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 11th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections alertsListPage demo2">
+            <div class="alertList" onclick="ChangeDisplay(12,11)">
+              <ul>
+                <li class="cursor">
+                  <a style="color: #1df6f7">Cars</a>
+                </li>
+                <li>
+                  <a>Guns</a>
+                </li>
+                <li>
+                  <a>Drones</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#" class="cursor">More...</a>
+            </div>
+            <div class="carAlert">
+              <div class="iconHome">
+                <a class="icon" onclick="ChangeDisplay(9,11)"
+                  ><img src="assets/images/icon-home.png" class="cursor"
+                /></a>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 12th screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections alertsListPage displayAlert demo2">
+            <div class="alertList">
+              <h4>List of detection model</h4>
+              <ul>
+                <li>
+                  <a style="color: #1df6f7">Cars</a>
+                </li>
+                <li>
+                  <a>Guns</a>
+                </li>
+                <li>
+                  <a>Drones</a>
+                </li>
+                <li>
+                  <a>People</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#" class="cursor" onclick="ChangeDisplay(13,12)"
+                >More...</a
+              >
+            </div>
+            <div class="alertDisplay">
+              <div class="clipBox cursor" onclick="ChangeDisplay(13,12)">
+                Black Chevy Cruze
+              </div>
+              <div class="clipBox">Little Red Corvette</div>
+              <div class="more">More...</div>
+              <a class="icon" onclick="ChangeDisplay(9,12)"
+                ><img src="assets/images/icon-home.png" class="cursor"
+              /></a>
+              <footer class="footerHalf">
+                <div class="alignBy">Grab Model</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 13th screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections alertsListPage displayAlert demo2">
+            <div class="alertList">
+              <h4>List of detection model</h4>
+              <ul>
+                <li>
+                  <a>Cars</a>
+                </li>
+                <li>
+                  <a>Guns</a>
+                </li>
+                <li>
+                  <a>Drones</a>
+                </li>
+                <li>
+                  <a style="color: #1df6f7">People</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#">More...</a>
+            </div>
+            <div class="alertDisplay">
+              <div class="clipBox cursor" onclick="ChangeDisplay(14,13)">
+                Any Individual
+              </div>
+              <div class="clipBox">Any Group of People</div>
+              <div class="more">More...</div>
+              <a class="icon cursor" onclick="ChangeDisplay(9,13)"
+                ><img src="assets/images/icon-home.png"
+              /></a>
+              <footer class="footerHalf">
+                <div class="alignBy">Grab Model</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 14th screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsContainer detectFeedContainer demo2">
+            <div class="alertList">
+              <ul>
+                <li>
+                  <a>Cars</a>
+                </li>
+                <li>
+                  <a>Guns</a>
+                </li>
+                <li>
+                  <a>Drones</a>
+                </li>
+                <li>
+                  <a style="color: #1df6f7">People</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#">More...</a>
+            </div>
+            <div class="alertDisplay">
+              <h6>Video Feeds</h6>
+              <div class="detectFeed">
+                <div class="clipBox">Drone #1</div>
+                <div class="clipBox" style="color: #848d8d">Drone #2</div>
+                <div class="clipBox">Checkpoint Cam #1</div>
+                <a id="a">
+                  <img src="assets/images/cta.png" />
+                </a>
+              </div>
+              <a class="icon cursor" onclick="ChangeDisplay(9,14)"
+                ><img src="assets/images/icon-home.png"
+              /></a>
+              <footer class="footerHalf">
+                <div class="alignBy cursor" onclick="ChangeDisplay(15,14)">
+                  Choose Feeds to load Model
+                </div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 15th screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections alertsListPage displayAlert demo2 adm">
+            <div class="alertList">
+              <ul>
+                <li>
+                  <a>Cars</a>
+                </li>
+                <li>
+                  <a>Guns</a>
+                </li>
+                <li>
+                  <a>Drones</a>
+                </li>
+                <li>
+                  <a style="color: #1df6f7">People</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#">More...</a>
+            </div>
+            <div class="alertDisplay demo2">
+              <div class="modelLoading cursor" onclick="ChangeDisplay(16,15)">
+                <div class="progressBar"></div>
+                <h6>Model Loading</h6>
+              </div>
+              <div class="clipBox">Black Chevy Cruze</div>
+              <div class="clipBox">Little Red Corvette</div>
+              <div class="more">More...</div>
+              <a class="icon" onclick="ChangeDisplay(9,15)"
+                ><img src="assets/images/icon-home.png"
+              /></a>
+              <footer class="footerHalf">
+                <div class="alignBy">Grab Model</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 16th Screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv">
+              <img src="assets/images/map1.jpg" />
+            </div>
+            <div class="buttons halfSectionDiv">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: initial;
+                  "
+                >
+                  <a href="javascript:void(0)" style="color: #1df6f7">
+                    Alerts
+                  </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/inactive-button-without-text.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+                <li class="arrow6">
+                  <div
+                    class="setcontainer-arrow"
+                    onclick="ChangeDisplay(17,16)"
+                  >
+                    <img
+                      class="arrow-icon"
+                      src="./Assets/Home/Arrow.png"
+                      alt="Icon"
+                    />
+                  </div>
+                </li>
+              </ul>
+
+              <footer class="footerHalf">
+                <div class="alignBy"># Align Nearby</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- Demo 3 (a)-->
+      <!-- 17th Screen -->
+      <div class="container demo-Container container-hide">
+        <div class="container-mainheading">Demo #3</div>
+        <div class="container-mainheading">AutoML in ATAK</div>
+        <div class="setcontainer-arrow" onclick="ChangeDisplay(18,17)">
+          <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+        </div>
+      </div>
+
+      <!-- 18th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="globePage">
+            <div class="globeMain cursor" onclick="ChangeDisplay(19,18)">
+              <a><img src="assets/images/globe.png" /></a>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 19th screeen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv" onclick="ChangeDisplay(20,19)">
+              <img src="assets/images/vehicleImg.png" />
+            </div>
+            <div class="buttons halfSectionDiv">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Alerts </a>
+                  <span id="span">1</span>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/inactive-button-without-text.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+              <footer class="footerHalf">
+                <div class="alignBy"># Align Nearby</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 20th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsScreen">
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)" onclick="ChangeDisplay(21,20)">
+                    Alerts
+                    <span>1</span>
+                  </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Align Nearby</div>
+          </footer>
+        </div>
+      </div>
+
+      <!-- 21st Screen -->
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsContainer demo3">
+            <div class="alertMain">
+              <div class="models">
+                <h4>Models Loaded</h4>
+                <a style="filter: grayscale(1)">
+                  <img src="assets/images/car-icon.png" />
+                </a>
+
+                <a>
+                  <img
+                    class="cursor"
+                    src="assets/images/ai-icon.png"
+                    onclick="ChangeDisplay(22,21)"
+                  />
+                </a>
+              </div>
+              <div class="clips">
+                <h4>Clips of Targets</h4>
+                <div class="divLorem">
+                  <div
+                    class="clipBoxDemo1 cursor"
+                    onclick="ChangeDisplay(22,21)"
+                  >
+                    Lorem Ipsum
+                  </div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <a href="javascript:void(0)">
+                    <img src="assets/images/cta.png" />
+                  </a>
+                </div>
+                <div class="divLorem">
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <div class="clipBox">Lorem Ipsum</div>
+                  <a href="javascript:void(0)">
+                    <img src="assets/images/cta.png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </main>
+          <a class="icon positionHome cursor" onclick="ChangeDisplay(20,21)"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 22nd Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main
+            class="alarmPage ctaPage demo3 cursor"
+            onclick="ChangeDisplay(23,22)"
+          >
+            <div class="progressBar"></div>
+            <h5>New Detection Car Model Being Built.</h5>
+
+            <h5>
+              You will be notified when the Detection Car Model is ready to
+              deploy.
+            </h5>
+          </main>
+          <a onclick="ChangeDisplay(20,22)" class="positionHome"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 23rd Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main class="alarmPage demo3">
+            <div class="navarrow" onclick="ChangeDisplay(20,23)">1</div>
+            <div class="alarmSection cursor" onclick="ChangeDisplay(24,23)">
+              <img src="assets/images/sattelite.png" />
+            </div>
+          </main>
+          <a class="icon positionHome22" onclick="ChangeDisplay(20,23)"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 24th Screen -->
+
+      <div class="container container-hide ">
+        <div class="app-container innerpage carBg">
+             
+          <main class="alarmPage ctaPage demo3 alertCta3" style="margin: 0;">
+                 <div class="setcontainer-arrow cursor" onclick="ChangeDisplay(25,24)">
+            <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+          </div> 
+            <div class="alarmSection">
+              <ul class="alertCta">
+                <li>
+                  <a href="javascript:void(0)"> Show On Map </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Notify Squad </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Log IT </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Improve Detection </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+     
+          <a onclick="ChangeDisplay(20,24)" class="positionHome23 cursor"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- Demo 3 (b) -->
+      <!-- 25th screen -->
+
+      <div class="container demo-Container container-hide">
+        <div class="container-mainheading">Demo #3</div>
+        <div class="container-mainheading">AutoML in ATAK</div>
+        <div class="setcontainer-arrow" onclick="ChangeDisplay(26,25)">
+          <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+        </div>
+      </div>
+
+      <!-- 26th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="globePage">
+            <div class="globeMain" onclick="ChangeDisplay(27,26)">
+              <a><img src="assets/images/globe.png" /></a>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 27th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv" onclick="ChangeDisplay(28,27)">
+              <img src="assets/images/map1.jpg" />
+            </div>
+            <div class="buttons halfSectionDiv">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Alerts </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/inactive-button-without-text.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: grayscale(1);
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+              <footer class="footerHalf">
+                <div class="alignBy"># Align Nearby</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 28th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage demo2">
+          <main>
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  class="cursor"
+                  onclick="ChangeDisplay(29,28)"
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: initial;
+                  "
+                >
+                  <a style="color: white"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a> Alerts </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Allies Nearby</div>
+          </footer>
+        </div>
+      </div>
+
+      <!-- 29th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="feedsContainer">
+            <div class="sortedFeeds">Sorted By Distance</div>
+            <div class="feeds">
+              <div class="feedsCard">
+                <img src="assets/images/FPS.png" />
+              </div>
+              <div class="feedsCard">
+                <img src="assets/images/car.png" />
+              </div>
+              <div class="feedsCard">
+                <img src="assets/images/thumbnail.png" />
+              </div>
+              <div class="feedsCard">
+                <img src="assets/images/thumbnail.png" />
+              </div>
+              </div>
+              <div class="feeds">
+              <div class="feedsCard">
+                <img src="assets/images/thumbnail.png" />
+              </div>
+              <div class="feedsCard" style="filter: grayscale(1);">
+                <img src="assets/images/thumbnail.png" />
+              </div>
+              <div class="feedsCard">
+                <img src="assets/images/thumbnail.png" />
+              </div>
+              <div class="feedsCard">
+                <img src="assets/images/thumbnail.png" />
+              </div>
+            </div>
+          </main>
+          <div class="setcontainer-arrow cursor" onclick="ChangeDisplay(30,29)">
+            <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+          </div>
+          <a onclick="ChangeDisplay(28,29)" class="cursor positionHome"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- Demo 4 -->
+      <!-- 30th Screen -->
+
+      <div class="container demo-Container container-hide">
+        <div class="container-mainheading">Demo #4</div>
+        <div class="container-mainheading">Semi-Supervised Learning</div>
+        <div class="setcontainer-arrow" onclick="ChangeDisplay(31,30)">
+          <img class="arrow-icon" src="./Assets/Home/Arrow.png" alt="Icon" />
+        </div>
+      </div>
+
+      <!-- 31st Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage demo2">
+          <main>
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a> Alerts </a>
+                </li>
+                <li
+                  class="cursor"
+                  onclick="ChangeDisplay(32,31)"
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: initial;
+                  "
+                >
+                  <a style="color: white"> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Allies Nearby</div>
+          </footer>
+        </div>
+      </div>
+
+      <!-- 32nd Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections detectPage demo2">
+            
+            <div class="ChooseTool halfSectionDiv">
+              <div class="seperatorLeft"></div>
+              <a style="color: #848d8d">Choose From <br />ToolBox</a>
+            </div>
+            <div class="carAlert halfSectionDiv">
+              <div class="iconHome">
+                <a class="icon cursor" onclick="ChangeDisplay(31,32)"
+                  ><img src="assets/images/icon-home.png"
+                /></a>
+                <a onclick="ChangeDisplay(33,32)" class="cursor"
+                  >Make New <br />Detection Model</a
+                >
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 33rd Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections alertsListPage displayAlert demo2">
+            <div class="alertList halfSectionDiv">
+              <ul>
+                <li>
+                  <a style="color: #1df6f7">Helmet Cam #1</a>
+                </li>
+                <li>
+                  <a>Drone Cam #1</a>
+                </li>
+                <li>
+                  <a>Drone Cam #2</a>
+                </li>
+                <li>
+                  <a> Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#">More...</a>
+            </div>
+            <main class="feedsContainer">
+              <div class="iconHome">
+                <a class="icon cursor" onclick="ChangeDisplay(31,33)"
+                  ><img src="assets/images/icon-home.png"
+                /></a>
+              </div>
+              <div style="display: flex; flex-direction: column;">
+              <div class="feeds" style="gap: 30px 50px; margin-bottom: 30px;">
+                <div class="feedsCard">
+                  <img src="assets/images/FPS.png" />
+                </div>
+                <div class="feedsCard cursor" onclick="ChangeDisplay(34,33)">
+                  <img src="assets/images/car.png" />
+                </div>
+                <div class="feedsCard">
+                  <img src="assets/images/thumbnail.png" />
+                </div>
+                <div class="feedsCard">
+                  <img src="assets/images/thumbnail.png" />
+                </div>
+                </div>
+                <div class="feeds" style="gap: 30px 50px">
+                <div class="feedsCard">
+                  <img src="assets/images/thumbnail.png" />
+                </div>
+                <div class="feedsCard">
+                  <img src="assets/images/thumbnail.png" style="filter: grayscale(1);" />
+                </div>
+                <div class="feedsCard">
+                  <img src="assets/images/thumbnail.png" />
+                </div>
+                <div class="feedsCard">
+                  <img src="assets/images/thumbnail.png" />
+                </div>
+              </div>
+              </div>
+            </main>
+          </main>
+        </div>
+      </div>
+
+      <!-- 34th screen -->
+      <div class="container container-hide demo-Container">
+        <div
+          class="carBrushContainer carScroll"
+          style="justify-content: space-between"
+        >
+          <h5 style="color: #1df6f7; font-size: 20px">Scroll To Clip</h5>
+          <div class="carsDiv">
+            <div style="width: 20%; filter: grayscale(1)">
+              <img src="./assets/images/carContainer.png" class="img" />
+            </div>
+            <div style="width: 40%; filter: grayscale(1)">
+              <img src="./assets/images/carContainer.png" class="img" />
+            </div>
+
+            <div class="carBrush cursor" onclick="ChangeDisplay(35,34)" style="width: 60%;margin: 0;">
+              <img
+                src="./assets/Home/cardemo4.png"
+                style="margin-right: 20px"
+              />
+              <div class="brush">
+                <div style="padding: 10px">
+                  <img src="./assets/Home/brush.png" />
+                </div>
+              </div>
+            </div>
+
+            <div style="width: 40%; filter: grayscale(1)">
+              <img src="./assets/images/carContainer.png" class="img" />
+            </div>
+            <div style="width: 20%; filter: grayscale(1)">
+              <img src="./assets/images/carContainer.png" class="img" />
+            </div>
+          </div>
+          <div style="width: 100%">
+            <img src="./assets/images/scrollBorder.png" class="img" />
+          </div>
+        </div>
+      </div>
+
+      <!-- 35th Screen -->
+
+      <div class="container container-hide demo-Container">
+        <div class="mainDemo4">
+          <div style="filter: grayscale(1)">
+            <img src="./assets/Home/reload.png" />
+          </div>
+          <div class="carBrushContainer">
+            <h5 style="color: #1df6f7; font-size: 20px">
+              Brush The New Target
+            </h5>
+            <div class="carBrush">
+              <img
+                src="./assets/Home/cardemo4.png"
+                style="margin-right: 20px"
+              />
+              <div class="brush">
+                <div onclick="ChangeDisplay(36,35)" class="cursor">
+                  <img src="./assets/Home/brush.png" />
+                </div>
+                <span style="font-size: 12px; color: white;">Tap to Brush</span>
+              </div>
+            </div>
+          </div>
+          <div class="cursor" onclick="ChangeDisplay(31,35)">
+            <img src="./assets/images/icon-home.png" />
+          </div>
+        </div>
+      </div>
+
+      <!-- 36th Screen -->
+
+      <div class="container container-hide demo-Container">
+        <div class="mainDemo4">
+          <div style="filter: grayscale(1)">
+            <img src="./assets/Home/reload.png" />
+          </div>
+          <div class="carBrushContainer">
+            <h5 style="color: #1df6f7; font-size: 20px">
+              Brush The New Target
+            </h5>
+            <div class="carBrush">
+              <img
+                src="./assets/Home/cardemo4.png"
+                class="cursor"
+                onclick="ChangeDisplay(37,36)"
+                style="margin-right: 20px; filter: grayscale(1)"
+              />
+              <div class="brush">
+                <div style="border: 0.64px solid #2eb1b7; padding: 10px">
+                  <img src="./assets/Home/brush.png" />
+                </div>
+                <span style="font-size: 12px; color: white;">Click to Confirm</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./assets/images/icon-home.png"
+              class="cursor"
+              onclick="ChangeDisplay(31,36)"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- 37th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main class="halfTwoSections alertsListPage displayAlert demo2">
+            <div class="alertList halfSectionDiv">
+              <ul>
+                <li>
+                  <a style="color: #1df6f7">Helmet Cam #1</a>
+                </li>
+                <li>
+                  <a>Drone Cam #1</a>
+                </li>
+                <li>
+                  <a>Drone Cam #2</a>
+                </li>
+                <li>
+                  <a> Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#">More...</a>
+            </div>
+            <main
+              class="alarmPage ctaPage demo3 cursor"
+              onclick="ChangeDisplay(38,37)"
+            >
+              <div class="progressBar"></div>
+              <h5>New Detection Car Model Being Built.</h5>
+
+              <h5>
+                You will be notified when the Detection Car Model is ready to
+                deploy.
+              </h5>
+            </main>
+          </main>
+        </div>
+      </div>
+
+      <!-- 38th screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsScreen">
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)" onclick="ChangeDisplay(39,38)">
+                    Alerts
+                    <span>4</span>
+                  </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Align Nearby</div>
+          </footer>
+        </div>
+      </div>
+
+      <!-- 39th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv">
+              <img src="assets/images/target-acquisition.png" />
+            </div>
+
+            <div
+              class="mainDemo4"
+              style="flex-direction: column; justify-content: flex-start"
+            >
+              <div style="display: flex; justify-content: space-between">
+                <div style="filter: grayscale(1)">
+                  <img
+                    src="./assets/images/carIcon.png"
+                    width="72"
+                    height="71"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/images/icon-home.png"
+                    onclick="ChangeDisplay(31,39)"
+                    class="cursor"
+                  />
+                </div>
+              </div>
+              <div class="carBrush" style="padding: 40px 40px">
+                <img
+                  src="./assets/images/camcapture.png"
+                  class="cursor"
+                  onclick="ChangeDisplay(40,39)"
+                />
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 40th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections carScreePage">
+            <div class="map halfSectionDiv" onclick="ChangeDisplay(41,40)">
+              <img src="assets/images/target-acquisition.png" />
+            </div>
+
+            <div class="buttons halfSectionDiv">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Alerts </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: grayscale(0);
+                  "
+                >
+                  <a href="javascript:void(0)" class="cursor"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/inactive-button-without-text.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+
+              <footer
+                class="footerHalf"
+                style="width: 50%; display: flex; justify-content: center"
+              >
+                <div class="alignBy"># Align Nearby</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 41st Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage targetAcquisition">
+          <main class="halfTwoSections alertsListPage displayAlert demo2">
+            <div class="alertList">
+              <h4>List of detection model</h4>
+              <ul>
+                <li>
+                  <a style="color: #1df6f7">Cars</a>
+                </li>
+                <li>
+                  <a>Guns</a>
+                </li>
+                <li>
+                  <a>Drones</a>
+                </li>
+                <li>
+                  <a>People</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+                <li>
+                  <a>Lorem Ipsum</a>
+                </li>
+              </ul>
+              <a href="#" class="cursor">More...</a>
+            </div>
+            <div class="alertDisplay">
+              <div class="clipBox cursor" onclick="ChangeDisplay(42,41)">
+                Black Chevy Cruze
+              </div>
+              <div class="clipBox">Little Red Corvette</div>
+              <div class="more">More...</div>
+              <a class="icon" onclick="ChangeDisplay(31,41)"
+                ><img src="assets/images/icon-home.png" class="cursor"
+              /></a>
+              <footer class="footerHalf">
+                <div class="alignBy">Model is Loaded</div>
+              </footer>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <!-- 42nd Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main class="alarmPage demo3">
+            <div class="navarrow" >1</div>
+            <div class="alarmSection cursor" onclick="ChangeDisplay(43,42)">
+              <img src="assets/images/camcapture.png" />
+            </div>
+          </main>
+          <a class="icon positionHome4" onclick="ChangeDisplay(31,42)"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 43rd Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage carBg">
+          <main class="alarmPage ctaPage demo3 alertCta3">
+            <div class="alarmSection" onclick="ChangeDisplay(44,43)">
+              <ul class="alertCta">
+                <li>
+                  <a href="javascript:void(0)"> Show On Map </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Notify Squad </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Log IT </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"> Improve Detection </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <a onclick="ChangeDisplay(31,43)" class="positionHome42 cursor"
+            ><img src="assets/images/homeSmall.png"
+          /></a>
+        </div>
+      </div>
+
+      <!-- 44th Screen -->
+
+      <div class="container container-hide">
+        <div class="app-container innerpage">
+          <main class="alertsScreen">
+            <div class="buttons fullWidth">
+              <ul>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Feeds </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)">
+                    Alerts
+                    <span>4</span>
+                  </a>
+                </li>
+                <li
+                  style="
+                    background: url('assets/images/thebtn.svg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  "
+                >
+                  <a href="javascript:void(0)"> Detect </a>
+                </li>
+              </ul>
+            </div>
+          </main>
+          <footer class="footerFull">
+            <div class="alignBy"># Align Nearby</div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="Scripts/script.js"></script>
+  </body>
+</html>
