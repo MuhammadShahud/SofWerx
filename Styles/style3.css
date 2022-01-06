@@ -619,8 +619,8 @@ main.alarmPage.ctaPage.demo3 h5 {
     height: 40px;
 }
 main.alarmPage.ctaPage.demo3.alertCta3 {
-    padding: 35px 30px 80px 40px;
-    margin: 103px 0 0;
+    padding: 20px 20px 0px 20px;
+    margin: 0 0;
 }
 /*Demo3*/
 @media (orientation: portrait) {
