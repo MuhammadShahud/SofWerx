@@ -209,6 +209,15 @@
   width: 40%;
   height: 40%
 }
+
+.alertHome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
 * {
   box-sizing: border-box;
@@ -232,6 +241,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .app-container.innerpage.carBg {
   background: url("../assets/images/car-bg.jpg");
@@ -937,7 +947,11 @@ main.alertsContainer.detectFeedContainer h6 {
   footer,
   main.halfTwoSections,
   main.feedsContainer,
-  main.alertsContainer {
+  main.alertsContainer,
+  .carBrushContainer, 
+  .carScroll,
+  .mainDemo4
+  {
     display: none;
     overflow: hidden;
     position: initial;

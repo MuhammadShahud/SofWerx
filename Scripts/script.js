@@ -7,4 +7,4 @@ let ChangeDisplay = (changeSlider, hideSlider) => {
     containerDOM[hideSlider].classList.add("container-hide")
 
 }
-setTimeout(()=>{ChangeDisplay(1,0)}, 2000);
+setTimeout(()=>{ChangeDisplay(1,0)}, 3000);
