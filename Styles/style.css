@@ -218,6 +218,20 @@
   top: 1%;
   right: 1%;
 }
+
+.loader{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loaderImg{
+      width: 40%;
+    height: 50%;
+    object-fit: contain;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
 * {
   box-sizing: border-box;
